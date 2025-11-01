@@ -151,6 +151,10 @@ a {
 /* #endregion hero */
 /* #region skills */
 
+.section-skills {
+    padding: 120px 0;
+}
+
 .section-skills-title {
     position: absolute;
     width: 1px;
@@ -165,7 +169,6 @@ a {
 }
 
 .skills-list {
-    padding: 152px 0 89px;
     display: flex;
     align-items: center;
     gap: 24px;

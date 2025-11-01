@@ -23,6 +23,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     padding: 0 15px;
@@ -174,6 +178,10 @@ a {
     gap: 24px;
 }
 
+.skills-item {
+    width: calc((100% - 72px) / 4);
+}
+
 .skills-title {
     margin-bottom: 8px;
     font-weight: 500;
@@ -308,9 +316,6 @@ a {
 /* #region footer */
 .footer {
     background-color: #2e2f42;
-}
-
-.div-footer {
     padding: 100px 0;
 }
 

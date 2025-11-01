@@ -208,6 +208,32 @@ a {
     background: #fff;
 }
 
+.section-team {
+    padding: 120px 0;
+}
+
+.team-title {
+    margin-bottom: 72px;
+}
+
+.team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.team-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.div-team-name {
+    text-align: center;
+}
+
+.div-team-name .team-name {
+    margin-bottom: 8px;
+}
+
 .team-name {
     font-weight: 500;
     font-size: 20px;

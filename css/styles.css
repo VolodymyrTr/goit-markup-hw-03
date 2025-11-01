@@ -115,6 +115,9 @@ a {
 }
 
 .section-title {
+    padding: 188px 0;
+    margin: auto;
+    max-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -123,6 +126,11 @@ a {
 }
 
 .button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 169px;
+    height: 56px;
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -130,6 +138,8 @@ a {
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    border: none;
+    border-radius: 4px;
 }
 
 .button:hover,
@@ -139,7 +149,29 @@ a {
 
 /* #endregion hero */
 /* #region skills */
+
+.section-skills-title {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.skills-list {
+    padding: 152px 0 89px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
 .skills-title {
+    padding: 8px 0;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
